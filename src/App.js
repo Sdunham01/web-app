@@ -7,6 +7,7 @@ import Partners from './components/Partners';
 import ContactUs from './components/ContactUs';
 import Header from './components/Header';
 import NavBarSide from './components/NavBarSide';
+import Careers from './components/Careers'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -23,6 +24,8 @@ function App() {
         return <Partners />;
       case 'ContactUs':
         return <ContactUs />;
+      case 'Careers':
+        return <Careers />;
       default:
         return <Home />;
     }

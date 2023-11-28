@@ -11,6 +11,7 @@ const NavBar = ({ onNavClick }) => {
                 <li onClick={() => onNavClick('Support')}><a href="#">Support</a></li>
                 <li onClick={() => onNavClick('Partners')}><a href="#">Partners</a></li>
                 <li onClick={() => onNavClick('ContactUs')}><a href="#">Contact Us</a></li>
+                <li onClick={() => onNavClick('Careers')}><a href="#">Careers</a></li>
             </ul>
         </div>
     );
