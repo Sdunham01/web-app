@@ -1,0 +1,29 @@
+.content {
+    font-family: Arial, sans-serif;
+    /* Choose a font that fits your design */
+    line-height: 1.6;
+    color: #333;
+    /* Dark grey for readability */
+    max-width: 800px;
+    /* Set a max-width for better readability */
+    margin: auto;
+    padding: 20px;
+}
+
+.content h2,
+.content h3,
+.content h4 {
+    color: #007bff;
+    /* A distinct color for headings */
+    margin-top: 20px;
+}
+
+.content h3 {
+    font-style: italic;
+}
+
+.content p {
+    text-align: justify;
+    /* Justify text for a clean look */
+    margin-top: 10px;
+}
